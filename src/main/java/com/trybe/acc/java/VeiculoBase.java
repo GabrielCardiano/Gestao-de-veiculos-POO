@@ -9,11 +9,11 @@ public abstract class VeiculoBase implements Veiculo {
   /**
    * Atributos e Métodos.
    */
-  protected String marca;
-  protected String modelo;
-  protected int ano;
-  protected String tipoCombustivel;
-  protected int capacidadeTanque;
+  private String marca;
+  private String modelo;
+  private int ano;
+  private String tipoCombustivel;
+  private int capacidadeTanque;
 
   /**
    * Instantiates a new Veiculo base.
