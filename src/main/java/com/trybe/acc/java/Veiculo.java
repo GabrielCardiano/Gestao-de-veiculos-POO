@@ -9,5 +9,7 @@ public interface Veiculo {
   /**
    * Atributos e Métodos.
    */
+  double calcularConsumoCombustivel(double distancia);
 
+  void exibirInformacoes();
 }
